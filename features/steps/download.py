@@ -26,4 +26,4 @@ def step_impl(context):
 @then(u'file is accessible in the filesystem')
 def step_impl(context):
     #raise NotImplementedError(u'STEP: Then file is accessible in the filesystem')
-    assert context.list==os.listdir(".") not True # Verific daca au aparut fisierul nou
+    assert not context.list==os.listdir(".") # Verific daca au aparut fisierul nou
