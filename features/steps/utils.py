@@ -44,4 +44,5 @@ if __name__=='__main__': # Testing space
         #driver.close()
 
     #login("edge")
-    print(os.path.isfile(os.path.realpath('../../test.txt')))
+    #print(os.path.isfile(os.path.realpath('../../test.txt')))
+    print("fixture.browser.chrome".split(".")[2])
